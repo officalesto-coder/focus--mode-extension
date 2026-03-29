@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Focus Mode</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 220px;
+      padding: 15px;
+      background: #111;
+      color: white;
+    }
+
+    h1 {
+      font-size: 18px;
+      margin: 0 0 12px 0;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 14px;
+      background: #1e1e1e;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    input {
+      transform: scale(1.2);
+    }
+
+    p {
+      font-size: 12px;
+      color: #bbb;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Focus Mode</h1>
+  <label>
+    Hide YouTube distractions
+    <input type="checkbox" id="toggleFocus" />
+  </label>
+  <p>Removes recommended videos and side suggestions.</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
